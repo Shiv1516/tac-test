@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Test file</title>
+    <meta name="description" content />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="navbars bs1 bg3 w100 pf t0 zi99">
+      <nav class="bottom-navbar wrapper v-center jcsb ptb12">
+        <a href="index.html"
+          ><img src="images/logo.png" alt="company-logo" class="logo"
+        /></a>
+        <div class="menu-btn w48 h48 cp box-center fdc ml32 p8">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </div>
+        <div class="navbar v-center fww fc3">
+          <ul class="nav-list v-center cp fww fw6">
+            <li class="nav-item transit2 p12 mlr4 fc-h2">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-item transit2 p12 mlr4 fc-h2">
+              <a href="#">Shop</a>
+            </li>
+            <li class="nav-item transit2 p12 mlr4 fc-h2">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <button
+            class="popup-btn transit2 fw6 br24 plr24 h48 cp bg1 bg-h2 fc-h1 ml24"
+          >
+            Shop Now
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero df w100 aft pr">
+      <div class="hero-box wrapper df jce aic zi3">
+        <div class="hero-section w50 tac p16">
+          <h1 class="hero-heading fs62 lh62 fw7 fc2 ls1 mb24">
+            Introducing <span class="fc1">Our Fall</span> Collection
+          </h1>
+          <p class="hero-subtext lh30 fs20 mb24 fc4">
+            Discover the latest styles in our Fall Collection, featuring cozy
+            fabrics, bold colors, and timeless designs for everyone.
+          </p>
+          <button
+            class="popup-btn transit2 fw6 br24 plr24 h48 cp bg1 bg-h2 fc-h1 ml24"
+          >
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="services-box wrapper ptb48">
+        <h2 class="grid-container-heading fs42 tac pb32 fw7">Products</h2>
+        <div class="grid-container">
+          <div class="grid-item ofh br4 transit2">
+            <img
+              src="images/product-01.jpg"
+              alt="product-01"
+              class="product-img w100 df"
+            />
+            <img
+              src="images/product-02.jpg"
+              alt="product-01"
+              class="product-alt w100 df"
+            />
+            <div class="grid-item-contend df jcsb mb12 plr24 ptb16">
+              <div class="grid-item-text tal">
+                <h3 class="grid-item-heading fs20 fw7 mb8">
+                  Eladi Sunscreen SPF 50
+                </h3>
+                <p class="grid-item-subtext lh24">
+                  With Eladi & Neem | Reduces Tan & Combats Acne
+                </p>
+              </div>
+              <p class="price fw7 fc2 fs20">$20</p>
+            </div>
+            <div class="grid-box-buttons df jcsb aic plr24 mb16">
+              <button
+                class="popup-btn transit2 fw6 br24 plr24 h48 cp bg1 bg-h2 fc-h1"
+                onclick="addToCart()"
+              >
+                Add To Cart
+              </button>
+              <span
+                class="material-symbols-outlined p8 br50 brd1 bg1 bg-h2 fc-h1"
+              >
+                favorite
+              </span>
+            </div>
+          </div>
+          <div class="grid-item ofh br4 transit2">
+            <img
+              src="images/product-02.jpg"
+              alt="product-01"
+              class="product-img w100 df"
+            />
+            <img
+              src="images/product-03.jpg"
+              alt="product-01"
+              class="product-alt w100 df"
+            />
+            <div class="grid-item-contend df jcsb mb12 plr24 ptb16">
+              <div class="grid-item-text tal">
+                <h3 class="grid-item-heading fs20 fw7 mb8">
+                  Eladi Sunscreen SPF 50
+                </h3>
+                <p class="grid-item-subtext lh24">
+                  With Eladi & Neem | Reduces Tan & Combats Acne
+                </p>
+              </div>
+              <p class="price fw7 fc2 fs20">$20</p>
+            </div>
+            <div class="grid-box-buttons df jcsb aic plr24 mb16">
+              <button
+                class="popup-btn transit2 fw6 br24 plr24 h48 cp bg1 bg-h2 fc-h1"
+                onclick="addToCart()"
+              >
+                Add To Cart
+              </button>
+              <span
+                class="material-symbols-outlined p8 br50 brd1 bg1 bg-h2 fc-h1"
+              >
+                favorite
+              </span>
+            </div>
+          </div>
+          <div class="grid-item ofh br4 transit2">
+            <img
+              src="images/product-03.jpg"
+              alt="product-01"
+              class="product-img w100 df"
+            />
+            <img
+              src="images/product-04.jpg"
+              alt="product-01"
+              class="product-alt w100 df"
+            />
+            <div class="grid-item-contend df jcsb mb12 plr24 ptb16">
+              <div class="grid-item-text tal">
+                <h3 class="grid-item-heading fs20 fw7 mb8">
+                  Eladi Sunscreen SPF 50
+                </h3>
+                <p class="grid-item-subtext lh24">
+                  With Eladi & Neem | Reduces Tan & Combats Acne
+                </p>
+              </div>
+              <p class="price fw7 fc2 fs20">$20</p>
+            </div>
+            <div class="grid-box-buttons df jcsb aic plr24 mb16">
+              <button
+                class="popup-btn transit2 fw6 br24 plr24 h48 cp bg1 bg-h2 fc-h1"
+                onclick="addToCart()"
+              >
+                Add To Cart
+              </button>
+              <span
+                class="material-symbols-outlined p8 br50 brd1 bg1 bg-h2 fc-h1"
+              >
+                favorite
+              </span>
+            </div>
+          </div>
+          <div class="grid-item ofh br4 transit2">
+            <img
+              src="images/product-04.jpg"
+              alt="product-01"
+              class="product-img w100 df"
+            />
+            <img
+              src="images/product-01.jpg"
+              alt="product-01"
+              class="product-alt w100 df"
+            />
+            <div class="grid-item-contend df jcsb mb12 plr24 ptb16">
+              <div class="grid-item-text tal">
+                <h3 class="grid-item-heading fs20 fw7 mb8">
+                  Eladi Sunscreen SPF 50
+                </h3>
+                <p class="grid-item-subtext lh24">
+                  With Eladi & Neem | Reduces Tan & Combats Acne
+                </p>
+              </div>
+              <p class="price fw7 fc2 fs20">$20</p>
+            </div>
+            <div class="grid-box-buttons df jcsb aic plr24 mb16">
+              <button
+                class="popup-btn transit2 fw6 br24 plr24 h48 cp bg1 bg-h2 fc-h1"
+                onclick="addToCart()"
+              >
+                Add To Cart
+              </button>
+              <span
+                class="material-symbols-outlined p8 br50 brd1 bg1 bg-h2 fc-h1"
+              >
+                favorite
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section bg3 ptb48">
+      <div class="footer-sec df fww wrapper aic">
+        <div class="footer-box flx33">
+          <img src="images/logo.png" alt="images" class="logo mb24" />
+          <p class="company-logo-text lh24">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+            porro recusandae qui natus minima voluptatibus?
+          </p>
+        </div>
+        <div class="footer-box flx33">
+          <ul class="footer-social df fww jcc">
+            <li class="footer-social-list tac mlr8">
+              <a
+                href="#"
+                class="footer-social-item bg4 p8 brd1 br50 bg-h1 transit2 mb8"
+              >
+                <img src="images/svg-icon/facebook.svg" alt="facebook"
+              /></a>
+              <p class="footer-social-item-text fs14 fw6">facebook</p>
+            </li>
+            <li class="footer-social-list tac mlr8">
+              <a
+                href="#"
+                class="footer-social-item bg4 p8 brd1 br50 bg-h1 transit2 mb8"
+              >
+                <img src="images/svg-icon/instagram.svg" alt="instagram"
+              /></a>
+              <p class="footer-social-item-text fs14 fw6">Instagram</p>
+            </li>
+            <li class="footer-social-list tac mlr8">
+              <a
+                href="#"
+                class="footer-social-item bg4 p8 brd1 br50 bg-h1 transit2 mb8"
+              >
+                <img src="images/svg-icon/twitter.svg" alt="twitter"
+              /></a>
+              <p class="footer-social-item-text fs14 fw6">Twitter</p>
+            </li>
+            <li class="footer-social-list tac mlr8">
+              <a
+                href="#"
+                class="footer-social-item bg4 p8 brd1 br50 bg-h1 transit2 mb8"
+              >
+                <img src="images/svg-icon/youtube.svg" alt="youtube"
+              /></a>
+              <p class="footer-social-item-text fs14 fw6">Youtube</p>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-box flx33">
+          <h3 class="footer-news-heading mb24 fs20 fw6">
+            Sign Up For Our Newsletter ​*
+          </h3>
+          <form class="newsletter-form v-center">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="newsletter-input h48 br4 plr12 mr12 w50 bg4"
+            /><button
+              type="submit"
+              class="newsletter-btn h48 plr24 bg1 br4 fw7 fs18 fc6 transit1 cp bg-h2 fc-h1"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
